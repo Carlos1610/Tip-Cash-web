@@ -24,17 +24,52 @@
   </head>
   <body>
 
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light py-4">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-secondary py-4">
       <a class="navbar-brand" href="../Home/home.html" >Tip-Cash</a>
 
   </nav>
 
-<section class="get-in-touch">
+
+   <form class="form-registro" action="includes/registro.inc.php" method="post">
+      <input type = "text" name="uid" placeholder="username"></br>
+      <input type = "text" name="mail" placeholder="E-mail"><br>
+      <input type = "password" name="pwd" placeholder="Password"><br>
+      <input type = "password" name="pwd-repeat" placeholder="Repeat password"><br>
+      <button type="submit" name="dbh.inc.php">Proximo</button> 
+   
+   
+   </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <section class="get-in-touch">
    <h1 class="title">Tip'Cash</h1>
    <form class="contact-form row">
       <div class="form-field col-lg-6">
          <input id="name" class="input-text js-input" type="text" required>
-         <label class="label" for="name">Nome Completo</label>
+         <label class="label" for="name" name="uid">Nome Completo</label>
       </div>
       <div class="form-field col-lg-6 ">
          <input id="email" class="input-text js-input" type="email" required>
@@ -61,10 +96,12 @@
          <label class="label" for="message">Nome completo da mãe</label>
       </div>
       <div class="form-field col-lg-12">
-         <input class="submit-btn" type="submit" value="Submit">
+         <input class="submit-btn" type="submit" value="Próximo" name="bRegistro">
       </div>
    </form>
-</section>
+</section> -->
+
+
 
 
   </body>
